@@ -1,0 +1,40 @@
+#服务端口
+server:
+  port: 9001
+
+
+#  数据库地址
+datasource:
+
+  url: 182.254.196.204:3306/my_test
+
+spring:
+  application:
+    name: microservice-order # 对外暴露的服务名称
+
+
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:  jdbc:mysql://${datasource.url}?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: root
+    password: 123456
+    hikari:
+      maximum-pool-size: 10 # 最大连接池数
+      max-lifetime: 1770000
+
+mybatis:
+  type-aliases-package: com.it.codai.entity
+  mapper-locations: classpath:mapper/*.xml  # mapper映射文件位置
+  configuration:
+    map-underscore-to-camel-case: true # 驼峰命名规范
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #输出sql
+
+#注册地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://order-server:8761/eureka/,http://order-server2:8762/eureka/    # 指定注册中心的地址
+
+#  instance:
+#    prefer-ip-address: true #注册中心显示ip

@@ -1,0 +1,21 @@
+#服务注册中心
+
+
+server:
+  port: 8762
+
+eureka:
+  instance:
+    hostname: order-server2
+
+  client:
+      registerWithEureka: false
+      fetchRegistry: false
+      serviceUrl:
+#        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#         集群配置
+         defaultZone: http://order-server:8761/eureka/
+
+  server:
+    enable-self-preservation: false
+

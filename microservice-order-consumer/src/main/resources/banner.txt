@@ -1,0 +1,52 @@
+${AnsiColor.BRIGHT_BLACK}
+${application.version}
+${application.formatted-version}
+${application.version}
+${spring-boot.version}
+${spring-boot.formatted-version}
+${spring-boot.version}
+---------------------
+
+                                         都想3天了,一行代码还没动
+
+
+                                                  E#####L
+                                                L#KWKKWWKK#
+                                               #KKKKKKKK#D,#.
+                                              .#WWWWWWW#  EtE
+                                              WWWKWWKW#   #tD
+                                              #WWWWKWW:   #tiD
+                                             ;KKKKWWKK   .jti#
+                                             GWWWWWWW:    #ji#
+                                             .fj;,,,;     fEj#
+                                             ;,.tK.        #i#
+                                             K :DE. WW##K  LtjG
+                                             #  .:t EL  ;    .W
+                                             # .,.   ;W#L     #
+                                             #  .     .:      K
+               我还没想清楚                   W .f   t       ##
+                                             G EtfWL:j.     W
+                                  ,K,GE.    .L   L#Wj       #
+                                   ##W#    K#L .WKWK        #
+                                   jW#:itDG. L  #D;j#.     .D
+                                   #     :   W             D .W
+                                .#W# .    #DK#.  t;f       #  .#
+                                WWWW#WW   .   WK         ;#    ;:
+                               WWWWWWKKWWW###; .DKWWLfffW# .   .f
+                              #KWWWWWKKKKKKWW;           i     W f
+                              #KKK#Wf    tW#Kj    L      W. W  :iK
+                              WKKK   .  . ,KKW    #     L   E.  t W
+                              WKKK ,,L: t,:#KKW## f  ..Ki   ##,K
+                              WKWEft ,    iK#iK  jLE::    .#, K.  :
+                              :WWK ;i:LG,.t,   : ;#.i    .#. .#   :
+                                .  :.Gji..:i   WE K. K  .K   . W. E
+                                :iE. .f;. Lf   fK#KWWK  #     f# .K
+                                  #i#W#WWt#.    # W  # K     .#  ,i
+                                  KLKDi;GWf     KK####W       W. W
+                                 ;.EKDi;G#iG   .EEEEEEE       ##K
+                                 #KWEKEEDD #   iEEWEEEE
+                                  .#GK.WWi     tEE# #EK
+                                    ji j#       KK  tKK.
+                                    Ej .K      j##  .##.
+                                              .##E  .K##
+                                                 .     .
